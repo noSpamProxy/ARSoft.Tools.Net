@@ -90,6 +90,7 @@ namespace ARSoft.Tools.Net.Dns
 		private static readonly List<DsRecord> _rootKeys = new List<DsRecord>()
 		{
 			new DsRecord(DomainName.Root, RecordClass.INet, 0, 20326, DnsSecAlgorithm.RsaSha256, DnsSecDigestType.Sha256, "E06D44B80B8F1D39A95C0B0D7C65D08458E880409BBC683457104237C7F8EC8D".FromBase16String()),
+			new DsRecord(DomainName.Root, RecordClass.INet, 0, 38696, DnsSecAlgorithm.RsaSha256, DnsSecDigestType.Sha256, "683D2D0ACB8C9B712A1948B27F741219298D0A450D612C483AF444A4C0FB2B16".FromBase16String()),
 		};
 
 		/// <summary>
